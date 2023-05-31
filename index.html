@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="styles.css" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+<!--____________ Google Font ___________________-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <div id="content">
+    <div id="leftSide">
+      <h1>Your Result</h1>
+      <div id="circleFrame">
+      <p id="bigNumber">76</p>
+      <p id="smallNumber">of 100</p>
+      </div>
+
+      <h2 id="great">Great</h2>
+      <p id="pText">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <div id="rightSide">
+      <h2 id="summary">Summary</h2>
+
+      <div class="textFrame" id="textFrameColorReaction">
+        <div class="totheleft">
+          <img src="assets/images/icon-reaction.svg" alt="Icône éclair">
+          <p class="categoryText" id="reaction">Reaction </p>
+        </div>
+      <p class="detailedScore">80 <span class="downlightNumber">/ 100</span></p>
+      </div>
+
+      <div class="textFrame" id="textFrameColorMemory">
+        <div class="totheleft">
+          <img src="assets/images/icon-memory.svg" alt="Icône cerveau">
+          <p class="categoryText" id="memory">Memory</p>
+        </div>
+      <p class="detailedScore">92 <span class="downlightNumber">/ 100</span></p>
+      </div>
+      
+      <div class="textFrame" id="textFrameColorVerbal">
+        <div class="totheleft">
+          <img src="assets/images/icon-verbal.svg" alt="Icône bulle de conversation">
+          <p class="categoryText" id="verbal">Verbal</p>
+        </div>
+      <p class="detailedScore">61 <span class="downlightNumber">/ 100</span></p>
+      </div>
+
+      <div class="textFrame" id="textFrameColorVisual">
+        <div class="totheleft">
+          <img src="assets/images/icon-visual.svg" alt="Icône oeil">
+          <p class="categoryText" id="visual">Visual</p>
+        </div>
+      <p class="detailedScore">72 <span class="downlightNumber">/ 100</span></p>
+      </div>
+
+      <a id="continue">Continue</a>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

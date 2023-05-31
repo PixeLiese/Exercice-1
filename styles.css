@@ -1,0 +1,230 @@
+/* css de l'exercice */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+    
+/* _________________________       TEXTE STYLE       _____________________________*/
+
+body
+{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+}
+
+h1
+{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 60%);
+}
+
+p
+{
+    font-size: 12px;
+    font-weight: 500;
+} 
+
+#bigNumber
+{
+    font-size: 3.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+#smallNumber
+{
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 60%);
+    text-align: center;
+    margin-top: 0;
+}
+#great
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#pText
+{
+    text-align: center;
+    color: hsla(0, 0%, 100%, 60%);
+    font-weight: 500;
+    font-size: 1rem;
+    width: 80%;
+    margin: auto;
+
+}
+
+#summary
+{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.categoryText
+{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.detailedScore
+{
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+    /* Aligner uniquement les chiffres en bout de ligne*/ 
+}
+
+.downlightNumber
+{
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+#reaction
+{
+    color: hsl(0, 100%, 67%);
+}
+
+#memory
+{
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal
+{
+    color: hsl(166, 100%, 37%);
+}
+
+#visual
+{
+    color: hsl(234, 85%, 45%);
+}
+
+/*__________________      CONTENT STYLE _________________________*/
+
+#content
+{
+    background-color: hsl(0, 0%, 100%);
+}
+
+#leftSide
+{
+    color: hsl(0, 0%, 100%); /* couleur de tous les textes de cette Div */
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0px 0px 30px 30px;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    height: 19rem;
+}
+
+#circleFrame
+{
+    width: 140px;
+    height: 140px;
+    background: hsla(256, 72%, 46%, 1);
+    background: linear-gradient(180deg,hsla(256, 72%, 46%, 1) 10%, hsla(241, 72%, 46%, 0) 100%);
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#rightSide
+{
+    padding: 10px 30px 30px 30px;
+}
+
+.textFrame
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 17px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+#textFrameColorReaction
+{
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+#textFrameColorMemory
+{
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+#textFrameColorVerbal
+{
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+#textFrameColorVisual
+{
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.totheleft
+{
+    display: flex;
+}
+
+#continue
+{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    margin-top: 25px;
+}
+#continue:hover
+{
+    background: linear-gradient( 180deg, hsla(256, 72%, 46%, 1) 30%, hsla(241, 72%, 46%, 1) 100%);
+}
+
+@media screen and (min-width: 1200px) {
+
+    #content{
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        width: fit-content;
+        margin: auto;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        border-radius: 30px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    }
+
+    #leftSide{
+        border-radius: 30px;
+        width: 380px;
+        height:500px;
+        padding: 0;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #rightSide{
+        width: 320px;
+        padding: 50px 40px 50px 40px;
+    }
+
+    h1{
+        margin-top: auto;
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+    }
+}
