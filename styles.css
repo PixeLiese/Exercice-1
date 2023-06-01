@@ -53,7 +53,7 @@ p
 #pText
 {
     text-align: center;
-    color: hsla(0, 0%, 100%, 60%);
+    color: hsla(0, 0%, 100%, 80%);
     font-weight: 500;
     font-size: 1rem;
     width: 80%;
@@ -215,6 +215,7 @@ p
         border-radius: 30px;
         display: flex;
         flex-direction: column;
+        
     }
 
     #rightSide{
@@ -227,4 +228,17 @@ p
         margin-bottom: 20px;
         font-size: 1.4rem;
     }
+
+    #pText{
+        width:250px;
+        font-size: 1.1em;
+        margin-top: 20px;
+    }
+
+    #circleFrame{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
 }
